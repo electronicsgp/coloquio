@@ -1179,7 +1179,6 @@ textarea.input {
 #speakers-owl .owl-carousel .owl-item img {
     height: 200px;
     object-fit: cover;
-    border-radius: 6px;
 }
 
 #speakers-owl .owl-carousel .owl-item .card .name {
@@ -1231,7 +1230,6 @@ textarea.input {
     background-color: #36AFB8;
     color: #FFF;
     text-align: right;
-    padding-left: 9vh;
     padding-bottom: 5px;
 }
 
@@ -1239,11 +1237,12 @@ textarea.input {
     font-size: 18px;
     margin: 0px 10px;
     padding-top: 5px;
+    padding-left: 10vh;
     color: #FFF;
 }
 
 .testimonial span {
-    font-size: 13px;
+    font-size: 12px;
     margin-right: 10px;
     padding-top: 0px;
     padding-bottom: 5px;
