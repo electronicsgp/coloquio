@@ -420,7 +420,8 @@ textarea.input {
 }
 
 .img-responsive {
-    max-width: 65vh;
+    margin-left: 90px;
+    max-width: 90vh;
 }
 
 .home-content h4 {
@@ -437,6 +438,7 @@ textarea.input {
 
 @media only screen and (max-width: 767px) {
     .img-responsive {
+        margin-left: 40px;
         max-width: 40vh;
     }
 }
