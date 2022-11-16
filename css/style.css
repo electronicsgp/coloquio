@@ -158,7 +158,7 @@ textarea.input {
 
 .section-title .title {
     position: relative;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-weight: 900;
     font-size: 42px;
     overflow: hidden;
@@ -299,7 +299,12 @@ textarea.input {
 }
 
 .main-nav .dropdown li a {
+    position: relative;
     padding: 5%;
+    color: #0b0f28;
+    text-transform: uppercase;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
 }
 
 .nav .open>a,
@@ -327,6 +332,10 @@ textarea.input {
     bottom: -3px;
     width: 100%;
     left: 0;
+    background: #36AFB8;
+}
+
+.main-nav .dropdown.open>a {
     background: #36AFB8;
 }
 
@@ -933,6 +942,7 @@ textarea.input {
 
 #footer {
     padding-top: 40px;
+    box-shadow: 0px 0px 3px #0003;
 }
 
 .footer-brand {

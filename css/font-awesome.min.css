@@ -86,3 +86,7 @@
 .fa-globe:before {
     content: "\f0ac"
 }
+
+.fa-youtube-play:before {
+    content: "\f16a";
+}
