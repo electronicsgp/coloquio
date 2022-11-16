@@ -419,7 +419,7 @@ textarea.input {
     color: #FFF;
 }
 
-.img-responsive {
+.home-content .img-responsive {
     margin-left: 90px;
     max-width: 90vh;
 }
@@ -437,7 +437,7 @@ textarea.input {
 }
 
 @media only screen and (max-width: 767px) {
-    .img-responsive {
+    .home-content .img-responsive {
         margin-left: 40px;
         max-width: 40vh;
     }
@@ -627,12 +627,19 @@ textarea.input {
     transform: translateY(-100%);
 }
 
+#speakers-owl {
+    padding-top: 180px;
+}
+
 @media only screen and (max-width: 767px) {
     .speaker .speaker-body {
         top: 250px;
     }
     .speaker {
         margin-bottom: 90px;
+    }
+    #speakers-owl {
+        padding-top: 80px;
     }
 }
 
@@ -1259,6 +1266,16 @@ textarea.input {
 @media(max-width: 360px) {
     #speakers-owl .owl-carousel .owl-item .card .name {
         left: 30%;
+    }
+}
+
+#contact .img-responsive {
+    max-width: 75vh;
+}
+
+@media only screen and (max-width: 767px) {
+    #contact .img-responsive {
+        max-width: 40vh;
     }
 }
 
