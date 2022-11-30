@@ -301,7 +301,7 @@ textarea.input {
 .main-nav .dropdown li a {
     position: relative;
     padding: 5%;
-    color: #0b0f28;
+    color: #ffff;
     text-transform: uppercase;
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
@@ -332,10 +332,6 @@ textarea.input {
     bottom: -3px;
     width: 100%;
     left: 0;
-    background: #36AFB8;
-}
-
-.main-nav .dropdown.open>a {
     background: #36AFB8;
 }
 
@@ -392,7 +388,8 @@ textarea.input {
     }
     .main-nav li a:hover,
     .main-nav li a:focus,
-    .main-nav li.active a {
+    .main-nav li.active a,
+    .main-nav .dropdown.open>a {
         background-color: #36AFB8;
         color: #fff !important;
     }
