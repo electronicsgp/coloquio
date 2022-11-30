@@ -1176,6 +1176,10 @@ textarea.input {
     [class*='col-xs'] {
         width: 100%;
     }
+    iframe {
+        width: 600;
+        height: 500;
+    }
 }
 
 #speakers-owl .owl-carousel .owl-item {
