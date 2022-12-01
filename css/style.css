@@ -1363,7 +1363,7 @@ textarea.input {
     -webkit-animation: scroll 7s linear infinite;
     animation: scroll 7s linear infinite;
     display: flex;
-    width: calc(360px * 9);
+    width: calc(360px * 8);
     /* height: calc(103px * 1); */
 }
 
