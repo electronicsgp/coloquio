@@ -71,7 +71,7 @@ h4 {
 }
 
 .lead {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 a {
@@ -139,6 +139,11 @@ textarea.input {
 .section {
     position: relative;
     padding: 90px 0px;
+}
+
+.section-bgs {
+    position: relative;
+    padding: 30px 0px 250px 0px;
 }
 
 .section-bg {
@@ -1038,7 +1043,7 @@ textarea.input {
 .blog .blog-content .read-more {
     display: inline-block;
     padding: 7px 14px;
-    background: #dd0a37;
+    background: #36AFB8;
     color: #FFF;
     text-transform: uppercase;
     border-radius: 2px;
@@ -1072,7 +1077,7 @@ textarea.input {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-color: #dd0a37;
+    background-color: #36AFB8;
     color: #FFF;
     border-radius: 50%;
     line-height: 30px;
@@ -1112,7 +1117,7 @@ textarea.input {
 
 .blog .blog-comments .media .media-heading .reply-btn {
     margin-left: 10px;
-    color: #dd0a37;
+    color: #36AFB8;
 }
 
 .blog .blog-reply {
